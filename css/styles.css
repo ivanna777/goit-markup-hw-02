@@ -4,7 +4,7 @@
     --header-bcg-color: #FFFFFF;
     --logo-color: #000000; 
     --logo-web-color: #2196F3;
-    --header-list-link-color: #212121;
+    --list-link-color: #212121;
     --accent-color: #2196F3;
     --header-mail-tel-link-color:  #757575;
     --hero-bcg-color: #2F303A;
@@ -70,7 +70,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.143;
 letter-spacing: 0.02em;
-color: var(--header-list-link-color);
+color: var(--list-link-color);
 }
 
 .header-list-link:hover,
@@ -186,3 +186,42 @@ color: var(--description-color);
 }
 
 /*================= END FOOTER ==============*/
+
+/*============== PORTFOLIO FILTER ===========*/
+
+.portfolio-filter-link {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.625;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--list-link-color) ;
+}
+
+.portfolio-filter-link:hover,
+.portfolio-filter-link:focus {
+    color: var(--button-text-color);
+    background-color: var(--accent-color); 
+}
+
+/*============== END PORTFOLIO FILTER ===========*/
+
+/*=============== PORTFOLIO PROJECTS =============*/
+
+.portfolio-projects-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;   
+    letter-spacing: 0.06em;
+    color: var(--title-name-color);
+}
+
+.portfolio-projects-description {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.03em;
+color: var(--description-color);
+}
+
+/*=============== END PORTFOLIO PROJECTS =============*/
