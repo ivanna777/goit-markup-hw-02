@@ -2,7 +2,8 @@
     --main-font:"Roboto", sans-serif;
     --secondary-font: "Ralewey", sans-serif;
     --header-bcg-color: #FFFFFF;
-    --logo-color: #000000; 
+    --header-logo-color: #000000;
+    --footer-logo-color: #FFFFFF; 
     --logo-web-color: #2196F3;
     --list-link-color: #212121;
     --accent-color: #2196F3;
@@ -52,13 +53,13 @@ body {
     background: var(--header-bcg-color);
 }
 
-.logo {
+.header-logo {
 font-family: var(--secondary-font);
 font-weight: 700;
 font-size: 26px;
 line-height: 1.192;
 letter-spacing: 0.03em;
-color: var(--logo-color) ;
+color: var(--header-logo-color) ;
 }
 
 .logo-web {
@@ -169,6 +170,15 @@ color: var(--description-color);
 .footer {
     background-color:var(--footer-bcg-color);
 }
+
+.footer-logo {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: var(--footer-logo-color) ;
+    }
 
 .footer-map-link,
 .footer-link {
